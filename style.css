@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+
+main{
+    font-family: Helvetica;
+}
+
+#bloco-1{
+    display: block;
+    background-color: orange;
+    border: solid rgb(163, 110, 10);    
+    transition: 1s;   
+    cursor: pointer; 
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px grey;
+    text-align: center;    
+    width: 440px;
+    border-radius: 10px;    
+}
+#bloco-1:hover{
+    border: 30px solid rgb(241, 140, 8);
+    background-color: rgb(238, 190, 87);
+    transition: 1s; 
+}
+
+#bloco-2{
+    display: block;
+    background-color: green;
+    border: solid rgb(2, 58, 2);
+    transition: 1s;   
+    cursor: pointer; 
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px grey;
+    text-align: center;
+    width: 440px;
+    border-radius: 10px;
+}
+#bloco-2:hover{
+    border: 30px solid rgb(9, 207, 85);
+    background-color: rgb(107, 221, 154);
+    transition: 1s; 
+}
+
+#bloco-3{
+    display: block;
+    background-color: rgb(3, 44, 3);
+    border: dashed rgb(10, 136, 10);
+    transition: 1s;   
+    cursor: pointer; 
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px grey;
+    text-align: center;
+    width: 440px;
+    border-radius: 10px;
+}
+
+#bloco-3:hover{
+    border: 30px solid rgb(4, 68, 18);
+    background-color: rgb(33, 221, 118);
+    transition: 1s; 
+}
+
+#bloco-4{
+    display: block;
+    background-color: rgb(238, 90, 90);
+    border: dashed rgb(75, 2, 2);
+    transition: 1s;   
+    cursor: pointer; 
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px grey;
+    text-align: center;
+    width: 440px;
+    border-radius: 10px;
+}
+#bloco-4:hover{
+    border: 30px solid rgb(255, 0, 0);
+    background-color: rgb(223, 130, 130);
+    transition: 1s; 
+}
+
+h1, p{
+    color: white;
+}
